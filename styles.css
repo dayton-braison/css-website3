@@ -1,0 +1,50 @@
+#section1{
+    width: 150px;
+    height: 150px;
+    background-color: powderblue;
+}
+
+#rgba {
+    width: 50%;
+    height: 50%;
+    background-color: rgba(230, 155, 145, .7);
+}
+
+div {
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    border: 3px solid gold;
+    margin: 10px;
+    display: inline-block;
+}
+
+#middle { 
+    background-color: black;
+}
+
+#static #middle {
+    position: static;
+}
+
+#relative #middle {
+    position: relative;
+    top: 30px;
+    left: 90px;
+}
+
+#absolute #middle {
+    position: absolute;
+    right: 100px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
+
+#fixed #middle {
+    position: fixed;
+    bottom: 100px;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+}
